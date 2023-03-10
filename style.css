@@ -1,0 +1,83 @@
+/* Apply a box-sizing property to make the layout consistent */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  /* Style the body with a light background and centered text */
+  body {
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  /* Style the registration form with a white background, border, and padding */
+  form {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 500px;
+  }
+  
+  /* Style the form heading with a blue color and some margin */
+  form h2 {
+    color: #2196f3;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the labels with bold text and a little spacing */
+  label  {
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  /* Style the text inputs and the select with a little border and padding */
+  input[type="text"],
+  input[type="password"],
+  select {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the radio buttons and checkboxes with a little spacing */
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  /* Style the submit button with a blue background and white text */
+  input[type="submit"] {
+    background-color: #2196f3;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: #8e44ad;
+    border-radius: 25px;
+    width: auto;
+  }
+  .belowp {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+  h2 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #8e44ad;
+  }
+.username {
+  font-size: medium;
+  color: #fff;
+}
